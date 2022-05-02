@@ -1,0 +1,13 @@
+@mixin hover_headear {
+    color: $color-1;
+}
+@mixin content($icon,$cl) {
+        font-family: "Font Awesome 5 Free";
+        //   content: "\{{$icon}}"; 
+            content: $icon;
+          display: inline-block;
+          padding-right: 3px;
+          vertical-align: middle;
+          font-weight: 900;
+          color: $cl;
+}
